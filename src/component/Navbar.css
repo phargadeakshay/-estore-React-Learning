@@ -1,0 +1,35 @@
+.divL1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: rgb(98, 98, 216);
+  justify-content: space-between;
+  color: white;
+  padding: 0 0.5rem;
+}
+.cartimg {
+  width: 1.5rem;
+}
+.ulList {
+  display: flex;
+  font: white;
+  justify-content: space-between;
+  list-style: none;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serachdiv {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 0.3rem;
+}
+.searchbar {
+  padding: 0.5rem;
+  width: 15rem;
+  border-radius: 0.3rem;
+  border: none;
+}

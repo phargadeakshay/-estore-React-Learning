@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+  background-image: url(https://www.hmablogs.com/wp-content/uploads/2021/09/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+}
+p {
+  color: red;
+}
+.mainDiv2 {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+.formm {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.715) 0px 3px 30px;
+  align-items: center;
+  width: 25rem;
+  padding: 1rem 1rem;
+}
+
+.SignInBtn {
+  background-color: #0b5ed7;
+  padding: 0.8rem 3rem;
+  border-radius: 0.4rem;
+  border: none;
+  margin-top: 0rem;
+  font-size: 16px;
+}

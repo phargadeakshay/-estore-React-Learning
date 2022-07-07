@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import FormApi from "./component/rashmi2/FormApi";
 
-function App() {
+import FormR from "./component/rashmiForm/FormR";
+import CompareHeaders from "./ReadCsv/CompareHeaders";
+import ReadFile from "./ReadCsv/ReadFile";
+import ReadXlsxCsv from "./ReadCsv/ReadXlsxCsv";
+import RReadFile from "./ReadCsv/RReadFile";
+import XlsxRead from "./ReadCsv/XlsxRead";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <FormR /> */}
+      {/* <FormApi /> */}
+      {/* <FormApi /> */}
+      {/* <ReadFile /> */}
+      <RReadFile />
+      {/* <CompareHeaders /> */}
+      {/* <ReadXlsxCsv /> */}
+      {/* <XlsxRead /> */}
     </div>
   );
-}
+};
 
 export default App;

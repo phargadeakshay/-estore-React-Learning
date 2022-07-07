@@ -1,0 +1,62 @@
+.mainDiv {
+  display: flex;
+
+  padding: 2rem;
+}
+.rootDiv {
+  display: flex;
+  justify-content: center;
+  height: 88vh;
+  background-color: #f1f3f5;
+  align-items: center;
+}
+.rootChild {
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+h1 {
+  text-align: center;
+}
+.leftSideField {
+}
+.rightSideField {
+  margin-left: 2rem;
+}
+
+label {
+  margin-right: 4rem;
+}
+.LmarginLeft {
+}
+.fieldDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+input {
+  padding: 0.7rem;
+  width: 15rem;
+}
+.btnDiv {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.btn1 {
+  background-color: #0b5ed7;
+  padding: 0.8rem;
+  width: 20rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 2rem;
+}
+.btn2 {
+  border-radius: 5px;
+  background-color: #157347;
+  padding: 0.8rem;
+
+  border: none;
+  width: 20rem;
+}

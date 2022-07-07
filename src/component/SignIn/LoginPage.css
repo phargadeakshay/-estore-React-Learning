@@ -1,0 +1,75 @@
+.Grandparent {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+.headingdiv {
+  display: flex;
+  justify-content: center;
+}
+.maindiv {
+  background-color: #fff;
+  width: 25rem;
+  height: 27rem;
+  margin: 3rem 0;
+  box-shadow: 0.1rem 0.1rem 1rem 0.1rem gray;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+}
+
+.emailinputefield {
+  padding: 0.8rem;
+  border: 1px solid gray;
+}
+
+#login {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #c4d7e8;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin-top: 1rem;
+}
+
+.passwordinputefield {
+  padding: 0.8rem;
+}
+.emailAndPassowrDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3rem;
+}
+.emaildiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.passworddiv {
+  margin: 0.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.SignInBtn {
+  background-color: #0b5ed7;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+.SignUpBtn {
+  background-color: #157347;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+.adiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
