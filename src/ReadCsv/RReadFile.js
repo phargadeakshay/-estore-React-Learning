@@ -93,7 +93,7 @@ const RReadFile = () => {
           }
         }
         // var ttt = "06/22/2022";
-        console.log(subtractDays(new Date(removeWhitef)), "mmmmmmmmm ");
+        // console.log(subtractDays(new Date(removeWhitef)), "mmmmmmmmm ");
       } //for loop
     }; //render.onload
     reader.readAsText(file);

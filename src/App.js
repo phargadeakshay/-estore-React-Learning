@@ -1,4 +1,5 @@
 import React from "react";
+import FormApi from "./component/rashmi2/FormApi";
 // import FormApi from "./component/rashmi2/FormApi";
 
 import FormR from "./component/rashmiForm/FormR";
@@ -7,7 +8,7 @@ import ReadFile from "./ReadCsv/ReadFile";
 import ReadXlsxCsv from "./ReadCsv/ReadXlsxCsv";
 import RReadFile from "./ReadCsv/RReadFile";
 import XlsxRead from "./ReadCsv/XlsxRead";
-
+import LoginPage from "./component/SignIn/LoginPage"
 const App = () => {
   return (
     <div>
@@ -15,10 +16,11 @@ const App = () => {
       {/* <FormApi /> */}
       {/* <FormApi /> */}
       {/* <ReadFile /> */}
-      <RReadFile />
+      {/* <RReadFile /> */}
       {/* <CompareHeaders /> */}
       {/* <ReadXlsxCsv /> */}
       {/* <XlsxRead /> */}
+      <LoginPage/>
     </div>
   );
 };
